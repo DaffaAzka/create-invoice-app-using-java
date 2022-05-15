@@ -1,7 +1,7 @@
 # Create-Invoice-App
 To create an invoice using the Java programming language and display it in the console.
 
-## Create Invoice
+## Example
 
 ```java
 InvoiceRepository invoiceRepository = new InvoiceRepositoryImpl();
@@ -24,6 +24,7 @@ invoiceService.showList();
 System.out.println("===========================================");
 invoiceService.showTotal();
 ```
+Or you can see in ``` com\dest\invoiceapp\invoice\CreateInvoice.java ```
 
 ## In console
 ```bash
@@ -44,9 +45,6 @@ Country : Country
 ===========================================
 Total : 608000
 ```
-
-## Example
-You can see in ``` com\dest\invoiceapp\invoice\CreateInvoice.java ```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
